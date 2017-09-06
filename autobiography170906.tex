@@ -1,0 +1,164 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=12pt]{scrartcl} % A4 paper and 11pt font size
+\usepackage{xeCJK}
+\setCJKmainfont{新細明體}
+\usepackage{indentfirst}
+\usepackage{verbatim}  % 需使用  verbatim package
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+\title{	
+\normalfont \normalsize 
+%\textsc{university, school or department name} \\ [25pt] % Your university, school and/or department name(s)
+%\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge 自傳 \\ % The assignment title
+%\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{侯則瑜} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+
+%\begin{comment}  % 註解開始
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 1
+%----------------------------------------------------------------------------------------
+
+\section*{過去到現在}
+\quad\quad
+我是則瑜，2015年自國立東華大學應用數學系統計研究所畢業，有2年的R程式語言使用經驗，對於資料探勘及機器學習有基本的知識，曾參與過kaggle比賽的經驗。由於在大學期間有較長的時間在接觸數學，除了能夠自行閱讀國外論文的演算法之外，更容易知道數學式中所表達的用意，增加程式撰寫及資料分析的效率。\\
+
+\quad\quad
+擁有資料收集及分析的經驗，例如：透過爬蟲程式進行網路文章收集，根據觀察字詞出現的頻率，採用有效的統計量過濾出有用的詞彙，使用multidimensional scaling(MDS)投影至平面，產生具有可讀性的文字雲(word cloud)；有改寫過他人套件程式碼的經驗，例如：改寫R軟體tm套件內的指令TermDocumentMatrix，解決中文字詞轉換成文本矩陣時的問題，讓中文文章資料也能進行文本探勘。\\
+
+\quad\quad
+在kaggle競賽中深知團隊作戰的重要性，透過與隊友學習、討論及溝通，最後分工進行任務，使用Histogram of Oriented Gradient（HOG）來擷取圖片特徵，搭配Support Vector Machine（SVM）進行分類，讓圖片辨識的成功率提升。
+
+\section*{未來期許}
+%未來期許
+\quad\quad
+想學習更多不同的程式，透過站在巨人的肩膀看得更遠，學習前輩們撰寫程式的技巧、演算法的開發及探勘資料的角度，希望加入貴公司能讓自己的能力更專業，讓自己專業的能力對公司有正面的影響，創造雙贏的結果。
+%\lipsum[2] % Dummy text
+\begin{comment}  % 註解開始
+\begin{align} 
+\begin{split}
+(x+y)^3 	&= (x+y)^2(x+y)\\
+&=(x^2+2xy+y^2)(x+y)\\
+&=(x^3+2x^2y+xy^2) + (x^2y+2xy^2+y^3)\\
+&=x^3+3x^2y+3xy^2+y^3
+\end{split}					
+\end{align}
+
+Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+
+%------------------------------------------------
+
+\subsection{Heading on level 2 (subsection)}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+\begin{align}
+A = 
+\begin{bmatrix}
+A_{11} & A_{21} \\
+A_{21} & A_{22}
+\end{bmatrix}
+\end{align}
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+
+%------------------------------------------------
+
+\subsubsection{Heading on level 3 (subsubsection)}
+
+\lipsum[3] % Dummy text
+
+\paragraph{Heading on level 4 (paragraph)}
+
+\lipsum[6] % Dummy text
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 2
+%----------------------------------------------------------------------------------------
+
+\section{Lists}
+
+%------------------------------------------------
+
+\subsection{Example of list (3*itemize)}
+\begin{itemize}
+	\item First item in a list 
+		\begin{itemize}
+		\item First item in a list 
+			\begin{itemize}
+			\item First item in a list 
+			\item Second item in a list 
+			\end{itemize}
+		\item Second item in a list 
+		\end{itemize}
+	\item Second item in a list 
+\end{itemize}
+
+%------------------------------------------------
+
+\subsection{Example of list (enumerate)}
+\begin{enumerate}
+\item First item in a list 
+\item Second item in a list 
+\item Third item in a list
+\end{enumerate}
+\end{comment}  % 註解結尾
+%----------------------------------------------------------------------------------------
+
+\end{document}
